@@ -7,25 +7,62 @@
     text-align: center;
   }
 
-  body { 
-    background-color: gray;  
+  #total {
+    background-color: gray
+  }
+  body {   
     font-size: 24px;
     line-height: 32px;
   }
 
   header {
+    background-color: white;
+    color: gray;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  section {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   #nav {
+    background-color: white;
+    color: gray;
   }
 
   #section {
-  }
-
-  #article {
+    background-color: white;
+    color: gray;
   }
 
   #article {
       background-color: gray;
       color: white;
   }
+
+  #h {
+    background-color: white;
+    color: gray;
+  }
+
+  #p {
+    background-color: white;
+    color: gray;
+  }
+
+  #aside {
+    background-color: white;
+    color: gray;
+  }
+
+  footer {
+    background-color: white;
+    color: gray;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
