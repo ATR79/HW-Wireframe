@@ -5,64 +5,78 @@
  * {
     box-sizing: border-box;
     text-align: center;
+    background-color: whitesmoke;
   }
 
   #total {
+    padding: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: gray
   }
   body {   
-    font-size: 24px;
+    font-size: 16px;
+    font-family: sans-serif;
     line-height: 32px;
   }
 
   header {
-    background-color: white;
-    color: gray;
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    background-color: whitesmoke;
+    color: lightslategray;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
   section {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
   #nav {
-    background-color: white;
-    color: gray;
+    background-color: whitesmoke;
+    color: lightslategray;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 
   #section {
-    background-color: white;
-    color: gray;
+    background-color: whitesmoke;
+    color: lightslategray;
   }
 
   #article {
       background-color: gray;
       color: white;
+      float: left;
+      width: 39%;
   }
 
   #h {
-    background-color: white;
-    color: gray;
+    background-color: whitesmoke;
+    color: lightslategray;
   }
 
   #p {
-    background-color: white;
-    color: gray;
+    background-color: whitesmoke;
+    color: lightslategray;
   }
 
   #aside {
-    background-color: white;
-    color: gray;
+    background-color: whitesmoke;
+    color: lightslategray;
   }
 
   footer {
-    background-color: white;
-    color: gray;
-    margin-left: 200px;
-    margin-right: 200px;
+    background-color: whitesmoke;
+    color: lightslategray;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 325px;
+    padding: 30px;
   }
 
