@@ -8,74 +8,96 @@
     background-color: whitesmoke;
   }
 
-  #total {
-    padding: 1px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: gray
-  }
+ 
+
   body {   
     font-size: 16px;
     font-family: sans-serif;
     line-height: 32px;
+    display: block;
+    width: 960px;
+    margin: auto;
+    color: lightslategray;
+  }
+
+  #total {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: gray;
+    display: block;
   }
 
   header {
     background-color: whitesmoke;
-    color: lightslategray;
-    padding: 30px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-
-  section {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
   }
 
   #nav {
     background-color: whitesmoke;
-    color: lightslategray;
-    padding: 30px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
   }
 
   #section {
     background-color: whitesmoke;
-    color: lightslategray;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 400px;
+    height: 250px;
   }
 
   #article {
       background-color: gray;
-      color: white;
-      float: left;
-      width: 39%;
+      color:whitesmoke;
+      padding: 30px;
+      margin-top: -10px;
+      margin-bottom: 15px;
+      margin-left: 20px;
+      width: 90%;
   }
 
   #h {
-    background-color: whitesmoke;
-    color: lightslategray;
+    background-color: gray;
+    float: left;
+    width: 100%;
   }
 
-  #p {
+  h3,p {
     background-color: whitesmoke;
-    color: lightslategray;
+    color: gray;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
   }
 
   #aside {
     background-color: whitesmoke;
-    color: lightslategray;
+    float: right;
+    margin-top: 1px;
+    margin-right: 100px;
+    width: 30%;
+    padding: 10px;
+    height: 250px;
   }
 
   footer {
     background-color: whitesmoke;
-    color: lightslategray;
-    margin-top: 15px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 325px;
     padding: 30px;
   }
